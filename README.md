@@ -101,6 +101,7 @@ claude
 | `/ads apple` | Apple Search Ads (ASA) deep analysis (campaign structure, bids, MMP, TAP) |
 | `/ads plan <type>` | Strategic ad plan with industry templates |
 | `/ads competitor` | Competitor ad intelligence across all platforms |
+| `/ads video` | Viral vertical video editing for TikTok, Reels, Shorts (scripts, retention audits, batch production) |
 
 ### `/ads audit`
 **Full Multi-Platform Audit**
@@ -132,6 +133,17 @@ Industry-specific templates with platform mix, campaign architecture, creative s
 - `finance` — Special Ad Category (credit), required disclosures
 - `agency` — Multi-client management, reporting framework
 - `generic` — Universal template with platform selection questionnaire
+
+### `/ads video`
+**Viral Vertical Video Editing**
+
+Plan, script, and audit short-form vertical video (9:16) engineered for retention on TikTok, Instagram Reels, and YouTube Shorts:
+- **Script mode** — shot-by-shot scripts with 3 testable hook variants
+- **Audit mode** — retention-curve diagnosis with prioritized edit fixes
+- **Batch mode** — production systems for creators posting daily (pillars, templates, calendar)
+- **Validate mode** — `scripts/check_video.py` checks a local file against platform specs (resolution, codecs, bitrate, duration, audio) via ffprobe
+
+Backed by 4 reference files: viral hook formulas, retention editing techniques, 2026 platform specs with safe zones and export settings, and tool workflows (CapCut, ffmpeg, AI clipping).
 
 ## Features
 
