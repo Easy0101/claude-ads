@@ -5,6 +5,13 @@ All notable changes to claude-ads are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+- **Viral vertical video sub-skill** (`/ads video`): scripting, retention auditing, and batch-production systems for TikTok, Instagram Reels, and YouTube Shorts. Four modes (Script, Audit, Batch, Validate) built on the retention hierarchy: hook (0-3s) → pacing → payoff → loop → polish
+- **4 new reference files**: `vertical-video-hooks.md` (hook formulas and 3-second retention library), `vertical-video-editing.md` (pacing, captions, audio, loop engineering), `vertical-video-specs.md` (2026 platform specs, safe zones, export settings), `vertical-video-workflow.md` (CapCut/ffmpeg workflows, batch production, cross-platform repurposing)
+- **`scripts/check_video.py`**: ffprobe-based validator scoring local video files against TikTok/Reels/Shorts upload specs and viral best-practice thresholds (aspect ratio, resolution, codecs, bitrate, duration sweet spots, audio presence, HDR detection) with JSON output
+
 ## [1.2.0] - 2026-03-12
 
 ### Added

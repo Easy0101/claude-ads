@@ -1,14 +1,14 @@
 ---
 name: ads
-description: "Comprehensive paid advertising audit and optimization for any business type. Performs full multi-platform audits (Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, Microsoft Ads), single-platform deep analysis, conversion tracking health checks, creative quality assessment, budget allocation optimization, bidding strategy evaluation, and compliance verification. Industry detection for SaaS, e-commerce, local service, B2B enterprise, info products, mobile app, real estate, healthcare, finance, and agency. Triggers on: ads, PPC, paid advertising, Google Ads, Meta Ads, Facebook Ads, LinkedIn Ads, TikTok Ads, Microsoft Ads, Bing Ads, ad audit, campaign audit, ROAS, conversion tracking, creative fatigue, bid strategy, brand DNA, generate ads, create campaign, product photography, ad creative generation."
-argument-hint: "audit | google | meta | youtube | linkedin | tiktok | microsoft | apple | creative | landing | budget | plan <type> | competitor | dna <url> | create | generate | photoshoot"
+description: "Comprehensive paid advertising audit and optimization for any business type. Performs full multi-platform audits (Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, Microsoft Ads), single-platform deep analysis, conversion tracking health checks, creative quality assessment, budget allocation optimization, bidding strategy evaluation, and compliance verification. Industry detection for SaaS, e-commerce, local service, B2B enterprise, info products, mobile app, real estate, healthcare, finance, and agency. Triggers on: ads, PPC, paid advertising, Google Ads, Meta Ads, Facebook Ads, LinkedIn Ads, TikTok Ads, Microsoft Ads, Bing Ads, ad audit, campaign audit, ROAS, conversion tracking, creative fatigue, bid strategy, brand DNA, generate ads, create campaign, product photography, ad creative generation, vertical video, viral video, TikTok video, Reels, Shorts, video editing, video hooks."
+argument-hint: "audit | google | meta | youtube | linkedin | tiktok | microsoft | apple | creative | landing | budget | plan <type> | competitor | dna <url> | create | generate | photoshoot | video"
 license: MIT
 ---
 
 # Ads — Multi-Platform Paid Advertising Audit & Optimization
 
 Comprehensive ad account analysis across all major platforms (Google, Meta,
-LinkedIn, TikTok, Microsoft). Orchestrates 17 specialized sub-skills and
+LinkedIn, TikTok, Microsoft). Orchestrates 18 specialized sub-skills and
 10 agents (6 audit + 4 creative).
 
 ## Quick Reference
@@ -32,6 +32,7 @@ LinkedIn, TikTok, Microsoft). Orchestrates 17 specialized sub-skills and
 | `/ads create` | Generate campaign concepts + copy briefs → `campaign-brief.md` |
 | `/ads generate` | Generate AI ad images from brief → `ad-assets/` |
 | `/ads photoshoot` | Product photography in 5 styles (Studio, Floating, Ingredient, In Use, Lifestyle) |
+| `/ads video` | Viral vertical video editing (TikTok, Reels, Shorts): scripts, retention audits, batch systems |
 
 ## Context Intake (Required — Always Do This First)
 
@@ -133,6 +134,10 @@ When sub-skills or agents reference `ads/references/*.md`, resolve to
 - `references/tiktok-creative-specs.md` — 9:16 only + safe zone overlay
 - `references/youtube-creative-specs.md` — Skippable/Bumper/Shorts/Thumbnail
 - `references/microsoft-creative-specs.md` — Multimedia Ads + RSA subset
+- `references/vertical-video-hooks.md` — Viral hook formulas and 3s retention library
+- `references/vertical-video-editing.md` — Retention editing, pacing, captions, audio
+- `references/vertical-video-specs.md` — TikTok/Reels/Shorts specs, safe zones, export
+- `references/vertical-video-workflow.md` — Tools (CapCut, ffmpeg), batch production, repurposing
 
 ## Scoring Methodology
 
@@ -183,6 +188,7 @@ This skill orchestrates 17 specialized sub-skills:
 15. **ads-create** — Campaign concepts, copy decks, creative briefs
 16. **ads-generate** — AI image generation with pluggable providers
 17. **ads-photoshoot** — Product photography in 5 professional styles
+18. **ads-video** — Viral vertical video editing (TikTok, Reels, Shorts)
 
 ## Subagents
 

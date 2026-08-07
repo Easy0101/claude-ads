@@ -4,7 +4,7 @@
 
 This repository contains **Claude Ads**, a Tier 4 Claude Code skill for comprehensive
 paid advertising analysis across all major platforms. It follows the Agent Skills open
-standard and the 3-layer architecture (directive, orchestration, execution). 12 sub-skills,
+standard and the 3-layer architecture (directive, orchestration, execution). 18 sub-skills,
 6 parallel subagents, and 11 industry templates cover Google, Meta, YouTube, LinkedIn,
 TikTok, and Microsoft Ads with 186 weighted audit checks.
 
@@ -30,6 +30,7 @@ claude-ads/
     ads-budget/SKILL.md           # Budget allocation optimization
     ads-plan/SKILL.md             # Strategic ad planning by industry
     ads-competitor/SKILL.md       # Competitor ad research
+    ads-video/SKILL.md            # Viral vertical video editing (TikTok/Reels/Shorts)
   agents/                            # 6 parallel subagents
     audit-google.md                # Google Ads audit agent
     audit-meta.md                  # Meta Ads audit agent
@@ -57,6 +58,7 @@ claude-ads/
 | `/ads budget` | Budget allocation optimization |
 | `/ads plan <type>` | Strategic ad planning by industry |
 | `/ads competitor` | Competitor ad research |
+| `/ads video` | Viral vertical video editing: scripts, retention audits, batch systems |
 
 ## Development Rules
 
