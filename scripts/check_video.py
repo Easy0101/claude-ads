@@ -30,7 +30,7 @@ PLATFORM_SPECS = {
         "min_bitrate_kbps": 6000,
     },
     "reels": {
-        "max_duration": 180,
+        "max_duration": 1200,
         "best_duration": (7, 30),
         "max_file_mb": 4096,
         "min_bitrate_kbps": 5000,
