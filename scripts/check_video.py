@@ -25,7 +25,7 @@ import sys
 PLATFORM_SPECS = {
     "tiktok": {
         "max_duration": 600,
-        "best_duration": (15, 34),
+        "best_duration": (24, 38),
         "max_file_mb": 500,
         "min_bitrate_kbps": 6000,
     },
@@ -37,7 +37,7 @@ PLATFORM_SPECS = {
     },
     "shorts": {
         "max_duration": 180,
-        "best_duration": (20, 60),
+        "best_duration": (20, 45),
         "max_file_mb": 2048,
         "min_bitrate_kbps": 8000,
     },
